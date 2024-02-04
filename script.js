@@ -4,6 +4,9 @@ var randButtom = document.querySelector('.randomize')
 var body = document.querySelector("body");
 var css = document.querySelector("h3");
 
+function addDemoFunction(){
+    console.log("Do something");
+}
 
 function generateRandomHexColor(){
     const random = Math.floor(Math.random() * 16777215).toString(16);
