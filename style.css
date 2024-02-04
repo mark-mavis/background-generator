@@ -1,7 +1,10 @@
 body {
+    display: flex;
+    flex-flow: column nowrap;
     font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
+    align-items: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
@@ -16,6 +19,13 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font: 200 2.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;   
+}
 h3 {
     font: 900 1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
@@ -24,8 +34,8 @@ h3 {
     letter-spacing: 0.01em;
 }
 
-
-
-body {
-    background: linear-gradient()
+.btn-container {
+    display: flex;
+    flex-flow: row nowrap;
 }
+
